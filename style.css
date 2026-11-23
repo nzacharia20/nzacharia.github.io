@@ -31,7 +31,7 @@
         color: white;
     }
 
-    .about {
+    .home {
     display: flex;
     align-items: flex-start;   /* photo lines up with the top of the text */
     justify-content: center;

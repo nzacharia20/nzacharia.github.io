@@ -32,26 +32,33 @@
     }
 
     .about {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 40px;
-        padding: 20px;
+    display: flex;
+    align-items: flex-start;   /* photo lines up with the top of the text */
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
     }
 
-.about-text {
-    flex: 0 1 600px;
+.about-text p {
+    max-width: none;
+    margin: 0 0 1em 0;         /* space between paragraphs */
+    line-height: 1.6;
+    font-size: 1.05rem;
 }
 
 .about-photo {
-    width: 300px;
+    width: 380px;              /* bigger photo */
+    height: auto;
     border: 3px solid #4B9CD3;
+    position: sticky;          /* photo stays in view as you scroll the text */
+    top: 20px;
 }
+
 
 .quotes {
     display: flex;
     justify-content: center;
-    align-items; flex-start;
+    align-items: flex-start;
     gap: 120px;
     padding: 20px;
 }
@@ -71,7 +78,7 @@ body {
     text-align: center;
 }
 .quotes figure {
-    width: 400px
+    width: 400px;
     margin: 0;
     text-align: center;
 }
@@ -83,10 +90,7 @@ body {
     margin-bottom: 12px;
     object-fit: cover;
 }
-.about-text p {
-    max-width: 900px;
-    margin: 0 auto;
-}
+
 .divider {
     background-color: #4B9CD3;
     color: white;
@@ -96,11 +100,7 @@ body {
     padding: 14px;
     margin-top: 40px;
 }
-.about-text {
-    background-color: #dbeaf7;
-    border-radius: 30px;
-    padding: 30px;
-}
+
 .research {
     max-width: 700px;
     margin: 40px auto;

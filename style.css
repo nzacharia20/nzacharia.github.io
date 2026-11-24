@@ -199,11 +199,13 @@ body {
     text-align: center;
 }
 
+
+
 .home-text {
-    max-width: 450px;        /* skinnier bubble; try 400px for even narrower */
-    background-color: #dde8f4;
-    border-radius: 25px;
-    padding: 30px 35px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    align-self: center;
+    border: 3px solid #619bd1;
 }
+.home-photo {
+    border: 5px solid #619bd1;   /* same blue as your header */
+    border-radius: 8px;
+}
+

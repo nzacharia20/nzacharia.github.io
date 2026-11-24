@@ -188,3 +188,14 @@ body {
 .home-btn:hover {
   background-color: #3a6ea5;
 }
+.home-heading {
+    margin: 30px 0 0 45px;   /* lines up with the left edge of your photo */
+}
+
+.home-text {
+    background-color: #dde8f4;   /* same light blue as your nav buttons */
+    border-radius: 25px;
+    padding: 30px 35px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    align-self: center;          /* centers the bubble next to the photo (works if .home is flex) */
+}
